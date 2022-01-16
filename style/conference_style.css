@@ -4502,7 +4502,15 @@ button:active {
 }
 .tablinks{
     border-radius: 5px;
-    margin: 15% 0%;
+    margin: 5.5% 0%;
+}
+.tablinks:hover{
+    background-color: #187AF1;
+    border: 1px solid #fff;
+}
+.tablinks:hover button{
+    background-color: #187AF1;
+    color: #fff;
 }
 .tablinks button{
     font-size: 16px;
@@ -4513,7 +4521,33 @@ button:active {
     background-color: #fff;
     border: none
 }
+.tablinks.actve{
+    background-color: #187AF1;
+}
+.actve{
+    background-color: #187AF1;
+}
+.tablinks.actve button{
+    background-color: #187af100;
+    color: #fff;
+}
 .tablinks i {
     margin-right: 10px;
     color: #000;
+}
+.slide{
+    border: 1px solid rgb(31, 30, 30);
+    padding: 8%;
+}
+.slide .fontawasome{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.fontawasome li{
+    list-style: none;
+    margin: 3% 0%;
+}
+.fontawasome i{
+    margin-right: 3px;
 }

@@ -653,22 +653,50 @@
                 <div class="col-md-12 event_faq_p">
                     <p>	<span>EVENT FAQS</span> / find your answers</p>
                 </div>
-                    <div class="personal_information_left col-md-4">
-                        <div class="tablinks" onclick="tab(event, 'agriculture')" id="defaultOpen"><i class="fas fa-chevron-right"></i><button href="#">Overview</button></div>
-                        <div class="tablinks" onclick="tab(event, 'notice')"><i class="fas fa-chevron-right"></i><button href="#">Academic Notice</button></div>
+                    <div class="personal_information_left col-md-6">
+                        <div class="tablinks actve" onclick="tab(event, 'slide1')" id="defaultOpen"><i class="fas fa-chevron-right"></i><button href="#">Overview</button></div>
+                        <div class="tablinks" onclick="tab(event, 'slide2')"><i class="fas fa-chevron-right"></i><button href="#">Academic Notice</button></div>
                         <div class="tablinks" ><i class="fas fa-chevron-right"></i><button href="#">Administrative Notice</button></div>
                         <div class="tablinks"><i class="fas fa-chevron-right"></i><button href="#">Result</button></div>
                         <!-- <div class=""><button href="#">NOC/GO</button></div>
                         <div class=""><button href="#">Jobs</button></div>
                         <div class=""><button href="#">Tender</button></div> -->
                     </div>
-                    <div class="faculty_right_agriculture col-md-8">
-                        <div id="agriculture" class="agriculture tabcontent active">
-                           ok 
+                    <div class="mt-4 col-md-6">
+                        <div id="slide1" class="slide tabcontent active">
+                           <div>
+                            <p>Vestibulum sit amet tincidunt urna, eget ullamcorper purus. Aenean feugiat quis tortor vitae fringilla. Pellentesque augue nisl, condimentum at sem et, fermentum varius ligula. Nulla dignissim nulla eget congue cursus.</p>
+                           </div>
+                            <div class="fontawasome">
+                                <div>
+                                    <li> <i class="far fa-check-circle"></i>First Awesome Feature</li>
+                                    <li> <i class="far fa-check-circle"></i>First Awesome Feature</li>
+                                    <li> <i class="far fa-check-circle"></i>First Awesome Feature</li>
+                                </div>
+                                <div>
+                                    <li> <i class="far fa-check-circle"></i>First Awesome Feature</li>
+                                    <li> <i class="far fa-check-circle"></i>First Awesome Feature</li>
+                                    <li> <i class="far fa-check-circle"></i>First Awesome Feature</li>
+                                </div>
+                            </div>
                         </div>
                        
-                        <div id="notice" class="table tabcontent">
-ki
+                        <div id="slide2" class="slide tabcontent">
+                            <div>
+                                <p>Vestibulum sit amet tincidunt urna, eget ullamcorper purus. Aenean feugiat quis tortor vitae fringilla. Pellentesque augue nisl, condimentum at sem et, fermentum varius ligula. Nulla dignissim nulla eget congue cursus.</p>
+                               </div>
+                                <div class="fontawasome">
+                                    <div>
+                                        <li> <i class="far fa-check-circle"></i>First Awesome Feature</li>
+                                        <li> <i class="far fa-check-circle"></i>First Awesome Feature</li>
+                                        
+                                    </div>
+                                    <div>
+                                        <li> <i class="far fa-check-circle"></i>First Awesome Feature</li>
+                                        <li> <i class="far fa-check-circle"></i>First Awesome Feature</li>
+                                        
+                                    </div>
+                                </div>
                         </div>
                     </div>
                     
@@ -1122,7 +1150,6 @@ ki
             });
         })
 
-         // Overview
         function tab(evt, para) {
             var i, tabcontent, tablinks;
             tabcontent = document.getElementsByClassName("tabcontent");
@@ -1131,12 +1158,12 @@ ki
             }
             tablinks = document.getElementsByClassName("tablinks");
             for (i = 0; i < tablinks.length; i++) {
-                tablinks[i].className = tablinks[i].className.replace(" active", "");
+                tablinks[i].className = tablinks[i].className.replace(" actve", "");
             }
             
             // evt.currentTarget.className += " active";
             document.getElementById(para).style.display = "block";
-            evt.currentTarget.className += " active";
+            evt.currentTarget.className += " actve";
 
         }
     </script>
