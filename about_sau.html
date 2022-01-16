@@ -12,9 +12,9 @@
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- slick carousel  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
         integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
 
     <link rel="stylesheet" href="./bootstrap-4.6.0-dist/css/bootstrap.min.css">
     <!-- Optional theme -->
@@ -407,15 +407,16 @@
 
 
     <!-- bootstrap 4.6  -->
+    <script src="./js/jqury/jqury.min.js"></script>
     <script src="./bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
     <!-- jqury cdn  -->
-    <script src="./js/jqury/jqury.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-    </script>
+    </script> -->
     <!-- javascript start  -->
     <script></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
@@ -424,7 +425,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
         integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <script src="./slick1/slick.js"></script>
+        <script src="./slick1/slick.js"></script> -->
     <script type="text/javascript">
         // pop bar js 
 
@@ -464,42 +465,42 @@
             $('[data-toggle="popover"]').popover();
         });
 
-        $(function () {
-            $('.testimonial_slider').slick({
-                prevArrow: '.home_arrow_prev',
-                nextArrow: '.home_arrow_next',
-                dots: true,
-                arrows: true,
-                infinite: true,
-                speed: 300,
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                responsive: [{
-                        breakpoint: 1024,
-                        settings: {
-                            slidesToShow: 1,
-                            slidesToScroll: 1,
-                            infinite: false,
-                            dots: true
-                        }
-                    },
-                    {
-                        breakpoint: 600,
-                        settings: {
-                            slidesToShow: 1,
-                            slidesToScroll: 1
-                        }
-                    },
-                    {
-                        breakpoint: 480,
-                        settings: {
-                            slidesToShow: 1,
-                            slidesToScroll: 1
-                        }
-                    }
-                ]
-            });
-        });
+        // $(function () {
+        //     $('.testimonial_slider').slick({
+        //         prevArrow: '.home_arrow_prev',
+        //         nextArrow: '.home_arrow_next',
+        //         dots: true,
+        //         arrows: true,
+        //         infinite: true,
+        //         speed: 300,
+        //         slidesToShow: 1,
+        //         slidesToScroll: 1,
+        //         responsive: [{
+        //                 breakpoint: 1024,
+        //                 settings: {
+        //                     slidesToShow: 1,
+        //                     slidesToScroll: 1,
+        //                     infinite: false,
+        //                     dots: true
+        //                 }
+        //             },
+        //             {
+        //                 breakpoint: 600,
+        //                 settings: {
+        //                     slidesToShow: 1,
+        //                     slidesToScroll: 1
+        //                 }
+        //             },
+        //             {
+        //                 breakpoint: 480,
+        //                 settings: {
+        //                     slidesToShow: 1,
+        //                     slidesToScroll: 1
+        //                 }
+        //             }
+        //         ]
+        //     });
+        // });
 
         function search_btn() {
             document.getElementById("search_btn_drop").classList.toggle("add");

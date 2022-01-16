@@ -4486,3 +4486,34 @@ button:active {
         margin-left: 10px;
     }
 }
+
+/* Event Faq */
+.event_faq_p{
+    font-size: 28px;
+    font-family: Roboto;
+    font-style: normal;
+    color: #000;
+    font-weight: 300;
+    margin-bottom: 35px;
+}
+
+.event_faq_p span{
+    font-weight: 500;
+}
+.tablinks{
+    border-radius: 5px;
+    margin: 15% 0%;
+}
+.tablinks button{
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 300;
+    font-style: normal;
+    color: #000;
+    background-color: #fff;
+    border: none
+}
+.tablinks i {
+    margin-right: 10px;
+    color: #000;
+}
