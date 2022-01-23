@@ -2691,10 +2691,9 @@ button:active {
     justify-content: center;
     align-items: center;
     margin-left: -23px;
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
-    /* background-color: black; */
-
+    border-bottom: 2px solid #0266f2;
+    border-right: 2px solid #0266f2;
+    background-color: #f0f0f0;
     height: 190px;
 }
 .faculty_slider_main>.faculty_slider_p1{
@@ -3033,8 +3032,8 @@ button:active {
 /* faculty css end  */
 /* notice start  */
 .notice {
-    margin: 50px 0px;
-    background: #f9f9f9;
+    margin: -10px 0px;
+    /* background: #f9f9f9; */
     padding: 60px 0px;
 }
 
@@ -3536,7 +3535,7 @@ button:active {
 }
 
 .event {
-    padding: 57px 0px 90px 0px;
+    padding: 57px 0px 0px 0px;
 }
 
 .event_filter {
@@ -3968,15 +3967,15 @@ button:active {
     line-height: 57px;
     text-align: center;
     letter-spacing: 0.01em;
-    color: #FFFFFF;
+    color: #049906;
 }
 
 .fandf_counter_p2 {
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
-    font-size: 23.5521px;
-    line-height: 28px;
+    font-size: 16px;
+    line-height: 44px;
     text-align: center;
     letter-spacing: 0.01em;
     color: #FFFFFF;
@@ -4178,6 +4177,7 @@ button:active {
     margin-left: 0px !important;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .afflition_text_p {
@@ -5167,3 +5167,168 @@ button:active {
   }
 
   
+  /* Notice and News */
+  .notice_heading{
+      font-size: 20px;
+      font-family: Roboto;
+      font-weight: 600;
+      font-style: normal;
+  }
+  .notice_heading::after{
+      content: " ";
+      display: block;
+      height: 2px;
+      background-color: #036A38;
+      width: 250px;
+  } 
+  .NandN{
+      display: flex;
+      flex-direction: column;
+     
+  }
+  .news{
+      display: flex;
+      margin: 10px 0px;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      padding: 5px 0px;
+  }
+  .news_date{
+      background-color: #036A38;
+      text-align: center;
+      padding: 8px 9px;
+      border-radius: 5px;
+      line-height: 7px;
+      color: #fff;
+      margin: 0px 10px;
+  }
+  .diferent_color{
+      background-color: #1881f7;
+  }
+  .news_date h6{
+      font-size:16px;
+      font-family: Roboto;
+      font-weight: 800;
+      font-style: normal;
+      line-height: 15px;
+  }
+  .news_date p{
+    font-size:14px;
+    font-family: Roboto;
+    /* font-weight: 800; */
+    font-style: normal;
+  }
+  .news_heading{
+    font-size:14px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+  }
+  .notice_video{
+      margin-top: 12px;
+      width:480px;
+        height:360px;
+  }
+  @media screen and (max-width: 520px) {
+      .notice_video{
+          width: 100%;
+      }
+      .campus_tour{
+          margin-top: 20px;
+      }
+  }
+
+
+  /* Eventos Start */
+  .eventos_arrow{
+      justify-content: center !important;
+  }
+  .eventos_arrow_prev {
+    width: 30px;
+    height: 30px;
+    padding: 3px 10px 4px 8px;
+    border-radius: 50%;
+    background-color: #E0E0E0;
+    cursor: pointer;
+}
+.eventos_arrow_next {
+    background-color: #153E90;
+    width: 30px;
+    height: 30px;
+    padding: 3px 12px 10px 11px;
+    border-radius: 50%;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.eventos_arrow {
+    display: flex;
+    justify-content: center;
+    margin-left: auto !important;
+    margin-top: 10px;
+}
+.eventos_card{
+    background-color: lightgray;
+    /* border-radius: 5px; */
+    padding: 5px 15px;
+    transition: 750ms;
+    margin-left: 10px !important;
+    /* box-shadow: 1px 0px 8px 2px rgba(0, 0, 0, 0.226); */
+    border-bottom: 1px solid rgb(119, 119, 119);
+}
+.eventos_card:hover{
+    background-color: #153E90;
+    color: #fff;
+    cursor: pointer;
+}
+.eventos_card:hover .eventos_number{
+    color: #fff;
+}
+.eventos_card:hover .eventos_heading{
+    color: #fff;
+}
+.eventos_card:hover .eventos_paragraph{
+    color: #fff;
+}
+.eventos_card:hover .more_infor{
+    color: #fff;
+}
+.eventos_number{
+    font-size: 32px ;
+    font-family: Roboto;
+    font-weight: 800;
+    font-style: normal;
+    color: #061b2c;
+}
+.eventos_heading{
+    font-size: 32px ;
+    font-family: Roboto;
+    font-weight: 200;
+    font-style: normal;
+    color: #061b2c;
+}
+.eventos_heading::after{
+    content: " ";
+    display: block;
+    height: 4px;
+    width: 80px;
+    background-color: #061b2c;
+    margin-top: -5px;
+}
+.eventos_paragraph{
+    font-size: 18px ;
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: normal;
+    color: #061b2c;
+    line-height: 1.2;
+    margin-top: 20px;
+    margin-bottom: 20px !important;
+}
+.more_infor{
+    font-size: 14px ;
+    font-family: Roboto;
+    font-weight: 300;
+    font-style: normal;
+    margin-top: 20px;
+}
