@@ -5224,6 +5224,10 @@ button:active {
     font-style: normal;
     display: flex;
     align-items: center;
+    
+  }
+  .news_heading a{
+    color: #000 !important;
   }
   .notice_video{
       margin-top: 12px;

@@ -1721,10 +1721,58 @@ p {
     padding: 10%;
     border: 1px solid black;
     margin-left: 10px;
+    position: relative;
+    overflow: hidden;
 }
 .library_person_single img {
+    display: block;
     width: 100%;
+    height: 180px;
     box-shadow: 3px 3px 9px 3px rgb(12 12 12 / 5%);
+}
+.image_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(137.95deg, rgba(0, 0, 0, 0.98) -15.93%, rgba(0, 85, 255, 0.98) 5.28%, rgba(81, 9, 138, 0.98) 48.6%, rgba(24, 0, 168, 0.882) 78.88%, rgba(16, 14, 101, 0.98) 112.31%);
+    transform: translateY(100%);
+    transition: 750ms;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.library_person_single_img:hover .image_overlay{
+    transform: translateY(0%);
+}
+.image_title{
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: normal;
+    /* margin-top: 20px; */
+}
+.telephone{
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 10px;
+}
+.email{
+    color: #fff!important;
+    text-align: center;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 20px;
 }
 @media screen and (max-width: 520px) {
     .faculty_member_person_top {
