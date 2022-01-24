@@ -1547,6 +1547,12 @@ p {
     text-align: center;
     border: 2px solid #0ea709;
 }
+.sau_dialog_btn{
+    height: 555px;
+    overflow: scroll !important;
+    display: flex;
+    flex-direction: column;
+}
 .mfp-close{
     color: #000;
 }
@@ -1571,3 +1577,4 @@ p {
         font-size: 32px;
     }
 }
+

@@ -537,9 +537,9 @@ p {
 .nav_main_options a {
     font-family: Roboto;
     font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 44px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
     letter-spacing: 0.01em;
     text-decoration: none;
     color: #FFFFFF;
@@ -558,7 +558,7 @@ p {
 .nav_2ndlebel_option .nav_2ndlebel_option_add a {
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 25px;
     /* letter-spacing: 0.01em; */
     text-transform: uppercase;
@@ -572,7 +572,6 @@ p {
     margin-right: 45px;
 }
 
-.nav_2ndlebel_option {}
 
 .nav_2ndlebel_option_add {
     display: flex;
@@ -5231,7 +5230,7 @@ button:active {
   }
   .notice_video{
       margin-top: 12px;
-      width:480px;
+      width:500px;
         height:360px;
   }
   @media screen and (max-width: 520px) {
